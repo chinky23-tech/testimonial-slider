@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.testimonial-container{
+    display: flex;
+    overflow: hidden;
+   max-width: 1200px;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    margin-top: 50px;
+    background-color: aqua;
+    padding: 30px;
+}
+.testimonial-card{
+    flex: 0 0 auto;
+    padding: 20px;
+    background-color: #b22121;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+   margin: 0 10px;
+   max-width: 380px;
+
+  
+    
+}
+.client-image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+
+}
+.text{
+    font-size: 0.9em;
+    margin-top: 20px;
+    line-height: 1.2;
+}
+.username{
+    font-size: 0.9em;
+    margin-top: 10px;
+}
